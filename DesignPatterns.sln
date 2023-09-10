@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TemplateMethodDesignPatterns", "TemplateMethodDesignPatterns", "{95BD8804-625A-4844-A5D4-D1D5A684A670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod", "TemplateMethodDesignPatterns\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{5326A3DD-913B-4E5E-B31B-20CB02F4E578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5326A3DD-913B-4E5E-B31B-20CB02F4E578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5326A3DD-913B-4E5E-B31B-20CB02F4E578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5326A3DD-913B-4E5E-B31B-20CB02F4E578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5326A3DD-913B-4E5E-B31B-20CB02F4E578}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5326A3DD-913B-4E5E-B31B-20CB02F4E578} = {95BD8804-625A-4844-A5D4-D1D5A684A670}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE17DC11-3FE0-468D-A86F-7E570774A15B}
+	EndGlobalSection
+EndGlobal

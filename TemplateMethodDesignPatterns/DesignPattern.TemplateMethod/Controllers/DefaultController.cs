@@ -8,6 +8,7 @@ namespace DesignPattern.TemplateMethod.Controllers
         {
 
             return View();
+
         }
     }
 }

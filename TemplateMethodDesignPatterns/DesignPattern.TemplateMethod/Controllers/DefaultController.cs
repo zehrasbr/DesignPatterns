@@ -6,7 +6,6 @@ namespace DesignPattern.TemplateMethod.Controllers
     {
         public IActionResult Index()
         {
-
             return View();
 
         }

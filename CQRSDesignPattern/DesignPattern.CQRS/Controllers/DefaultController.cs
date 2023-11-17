@@ -28,7 +28,8 @@ namespace DesignPattern.CQRS.Controllers
         [HttpPost]
         public IActionResult AddProduct(CreateProductCommand command)
         {
-            return View();
+            _createProductCommandHandler.Handle(command);
+            return RedirectToAction("Index");
         }
     }
 }

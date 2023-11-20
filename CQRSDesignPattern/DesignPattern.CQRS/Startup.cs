@@ -28,6 +28,7 @@ namespace DesignPattern.CQRS
             services.AddDbContext<Context>();
             services.AddScoped<GetProductQueryHandler>();
             services.AddScoped<CreateProductCommandHandler>();
+            services.AddScoped<GetProductByIDQueryHandler>();
             services.AddControllersWithViews();
         }
 
